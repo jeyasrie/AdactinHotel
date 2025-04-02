@@ -42,13 +42,13 @@ public class ChangePasswordPage extends ProjectSpecification{
 	}
 	public ChangePasswordPage Enter_Newpassword(String newPass)
 	{
-		currentpassword.sendKeys(newPass);
+		newpassword.sendKeys(newPass);
 		return this;
 		
 	}
 	public ChangePasswordPage Enter_Repassword(String RePass)
 	{
-		currentpassword.sendKeys(RePass);
+		Repassword.sendKeys(RePass);
 		return this;
 		
 	}
@@ -74,7 +74,7 @@ public class ChangePasswordPage extends ProjectSpecification{
 			String actualText=ele.getText();
 			Assert.assertEquals(actualText, expected);
 		}
-		/*else if(Testtype.equalsIgnoreCase("empty re password field"))
+	/*	else if(Testtype.equalsIgnoreCase("empty re password field"))
 		{
 
 			WebElement ele=Handling.explicitWait(driver,SuccessMessage);
@@ -108,7 +108,7 @@ public class ChangePasswordPage extends ProjectSpecification{
 			WebElement ele=Handling.explicitWait(driver,ErrorMessage);
 			String actualText=ele.getText();
 			Assert.assertEquals(actualText, expected);
-		} */
+		}  */
 	
 		return this;
 	}

@@ -13,21 +13,11 @@
           <include name="setup"/>
           <include name="testDetails"/>
           <include name="reportIniatialization"/>
-          <include name="change_PasswordTest" invocation-numbers="1"/>
+          <include name="change_PasswordTest" invocation-numbers="0 1"/>
           <include name="launchingbrowserandloadingURL"/>
           <include name="reportClose"/>
         </methods>
       </class> <!-- test.TC_008Changepassword -->
-      <class name="test.TC_001Resgistration">
-        <methods>
-          <include name="testDetails"/>
-          <include name="setup"/>
-          <include name="reportIniatialization"/>
-          <include name="launchingbrowserandloadingURL"/>
-          <include name="reportClose"/>
-          <include name="userRegistration" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- test.TC_001Resgistration -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
