@@ -53,6 +53,13 @@
                 <configuration>
                 <suiteXmlFiles>
 					<suiteXmlFile>testnglogin.xml</suiteXmlFile>
+					<suiteXmlFile>testngreset.xml</suiteXmlFile>
+					<suiteXmlFile>testngregister.xml</suiteXmlFile>
+					<suiteXmlFile>testngsearchhotel.xml</suiteXmlFile>
+					<suiteXmlFile>testngbooking.xml</suiteXmlFile>
+					<suiteXmlFile>testngitinerary.xml</suiteXmlFile>
+				
+					
                 </suiteXmlFiles>
                </configuration>
             </plugin>
